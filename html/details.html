@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GoodPizza</title>
+    <!--Bootstrap CSS styles-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--User CSS styles-->
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/details_main/details_main.css">
+
+    <!--Vendor scripts-->
+    <script src="../libs/jquery/jquery-3.4.1.min.js" defer></script>
+    <!--User scripts-->
+    <script src="../js/header.js" defer></script>
+    <script src="../js/details.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container top-line-container">
+            <div class="row align-items-center justify-content-between top-line">
+                <div class="col-1 logo">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="../images/picca.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="col-5 navbar">
+                    <nav class="nav justify-content-around main-menu">
+                        <a class="nav-link" href="about_us.html">О нас</a>
+                        <a class="nav-link" href="news.html">Новости</a>
+                        <a class="nav-link" href="index.html#connection">Связаться</a>
+                        <a class="nav-link" href="contacts.html">Контакты</a>
+                    </nav>
+                </div>
+                <div class="col-3 top-btn-wrap">
+                    <a href="details.html"><div class="top-btn text-center">Собрать пиццу</div></a>
+                </div>
+                <div class="col-3 top-phone">
+                    <a href="#" class="top-phone-link">+38 (095) 454 01 48</a>
+                    <p>Будни: 9:00 - 20:00</p>
+                    <p>Выходные: 11:00 - 18:00</p>
+                </div>
+                <button class="hamburger">
+                    <span class="hamburger-inner">
+                    </span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid pizza-details-container">
+            <div class="row justify-content-around pizza-details-row">
+                <div class="col-6 pizza-details-describe">
+                    <h1 id="pizza-name">Капричоза</h1>
+                    <div class="ingredients">
+                        <h4>Ингредиенты:</h4>
+                        <ul  id="pizza-ingredients">
+                        </ul>
+                    </div>
+                    <div class="container to-buy">
+                        <div class="row justify-content-between">
+                            <div class="buy-btn text-center">Купить</div>
+                            <div class="price" id="pizza-price">234 грн.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 pizza-details-img">
+                    <img src="../images/pizza/caprichioza.jpg" class="float-right" id="pizza-image" alt="">
+                </div>
+            </div>
+            <div class="container how-it-work">
+                <h2 class="text-center">Как это работает?</h2>
+                <div class="row justify-content-between">
+                    <div class="col-3 how-item">
+                        <div class="how-item-img">
+                            <div class="how-item-count not-last">1</div>
+                            <img src="../images/how/order.svg" alt="">
+                        </div>
+                        <p>Заполните форму заказа</p>
+                    </div>
+                    <div class="col-3 how-item">
+                        <div class="how-item-img">
+                            <div class="how-item-count not-last">2</div>
+                            <img src="../images/how/cooking.svg" alt="">
+                        </div>
+                        <p>Наши повора готовят пиццу</p>
+                    </div>
+                    <div class="col-3 how-item">
+                        <div class="how-item-img">
+                            <div class="how-item-count not-last">3</div>
+                            <img src="../images/how/truck.svg" alt="">
+                        </div>
+                        <p>Курьер доставляет заказ</p>
+                    </div>
+                    <div class="col-3 how-item">
+                        <div class="how-item-img">
+                            <div class="how-item-count">4</div>
+                            <img src="../images/how/food.svg" alt="">
+                        </div>
+                        <p>Вы наслаждаетесь горячей пиццей</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 order-lg-1 col-sm-4 order-sm-4 footer-left">
+                    <div class="logo">
+                        <img src="../images/picca.png" alt="">
+                    </div>
+                    <p>© GoodPizza.<br>Все права защищены.</p>
+                </div>
+                <div class="col-lg-3 order-lg-2 col-sm-4 order-sm-1 footer-middle-left">
+                    <h3>Навигация</h3>
+                    <nav class="footer-nav">
+						<ul class="">
+                            <li class="first"><a href="#">Рационы</a></li>
+                            <li><a href="pitanie-v-ofis-dlya-vashix-sotrudnikov">Обеды в офисы</a></li>
+                            <li><a href="about">О нас</a></li>
+                            <li><a href="blog/">Блог</a></li>
+                            <li class="last"><a href="faq">Частые вопросы</a></li></ul>
+					</nav>
+                </div>
+                <div class="col-lg-3 order-lg-3 col-sm-4 order-sm-2 footer-middle-right">
+                    <h3>Оформить заказ</h3>
+                    <a href="#">+38 (095) 454 01 48</a>
+                    <p>Будни: 10:00 – 18:00</p>
+                    <p>Выходные: 12:00 – 15:00</p>
+                    <img src="../images/footer/mastercard.svg" alt="mastercard">
+                    <img src="../images/footer/visa.svg" alt="visa">
+                    <img src="../images/footer/privat.png" alt="privat">
+                </div>
+                <div class="col-lg-3 order-lg-4 col-sm-4 order-sm-3 footer-right">
+                    <h3>Соцсети</h3>
+                    <div class="social-wrap">
+						<a href="#">
+                            <img src="../images/footer/instagram.png" alt="">
+						</a>
+						<a href="#">
+                            <img src="../images/footer/facebook.png" alt="">
+						</a>
+					</div>
+                    <div class="dmp">
+						<p>Design &amp; Marketing by <a href="javascript:void(0);" target="_blank">NeverStay</a></p>
+						<p>Programming: <a href="https://github.com/svyst">Sergey Vystavkin</a></p>
+					</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

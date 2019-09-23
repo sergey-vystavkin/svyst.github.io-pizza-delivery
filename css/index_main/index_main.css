@@ -1,0 +1,14 @@
+@import "./first_section.css";
+@import "./second_section.css";
+@import "./third_section.css";
+@import "./fourth_section.css";
+
+main {
+    padding-top: 160px;
+}
+
+
+h1{
+    font-size: 2em;
+    font-weight: bold;
+}

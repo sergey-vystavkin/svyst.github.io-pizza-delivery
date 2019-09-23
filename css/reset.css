@@ -1,0 +1,24 @@
+a img, :link img, :visited img, a:active, a:visited{
+	border: 0;
+	}
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.btn.focus, .btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: 0 !important;
+}

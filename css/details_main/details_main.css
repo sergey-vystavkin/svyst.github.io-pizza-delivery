@@ -1,0 +1,115 @@
+@import "./how_it_works.css";
+
+body {
+    padding:0;
+    background: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding-top: 170px;
+}
+
+.pizza-details-container {
+    max-width: 800px;
+    width: 100%;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 13px rgba(0,0,0,.034);
+}
+.pizza-details-row {
+    margin-bottom: 50px;
+}
+
+.pizza-details-describe {
+    margin-top: 20px;
+}
+
+.pizza-details-describe h1 {
+    margin-left: 20px;
+    color: #2d2e4d;
+    line-height: 110%;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Container with list of ingredients */
+
+.ingredients {
+    margin: 25px 0 0 90px;
+}
+
+.ingredients ul {
+    list-style: none;
+}
+
+.ingredients li {
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.ingredients li:before {
+    content: '\2714  ';
+    color: #22c522;
+    font-size: 1.2em;
+}
+
+.ingredients li:hover::before {
+    color: #008514;
+}
+
+.ingredients li.delete:before {
+    content: '\2718  ';
+    color: red;
+}
+.ingredients li.delete:hover::before {
+    color: darkred;
+}
+
+/* Container with price and buy button */
+
+.to-buy {
+    margin: 80px 10px 0 20px;
+}
+
+.price {
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 700;
+    color: #fea22e;
+    border-bottom: 2px solid #ddd;
+}
+
+.buy-btn {
+    display: inline-block;
+    width: 140px;
+    border: 2px solid #fea22e;
+    border-radius: 30px;
+    font-weight: 600;
+    color: #fea22e;
+    font-size: 14px;
+    padding: 0.9em 1.9em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.buy-btn:hover {
+    background: #fea22e;
+    color: #fff;
+}
+
+/* Pizza image */
+
+.pizza-details-img {
+    padding: 0;
+}
+
+.pizza-details-img img {
+    height: 360px;
+    float: right;
+    border-bottom: 7px solid #fea22e;
+    box-shadow: -5px 6px 20px 0px #0000003b;
+    border-radius: 0 0 0 20px;
+}
+

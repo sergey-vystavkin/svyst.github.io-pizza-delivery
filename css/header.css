@@ -1,0 +1,77 @@
+@import "./main_menu.css";
+
+header{
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 9999;
+}
+
+.top-line-container{
+    margin-right: 100px;
+}
+div.top-line{
+    height: 20vh;
+}
+div.logo img{
+    height: 80px;
+}
+
+/* Header top button */
+
+div.top-btn-wrap {
+    order: 3;
+    max-width: 250px;
+    min-width: 220px;
+}
+div.top-btn{
+    border: 2px solid #fea22e;
+    border-radius: 30px;
+    font-weight: 600;
+    color: #fea22e;
+    font-size: 14px;
+    padding: 0.9em 1.9em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div.top-btn:hover{
+    background: #fea22e;
+    color: #fff;
+}
+
+/* Header top phone */
+
+div.top-phone{
+    min-width: 220px;
+    border-left: 1px solid #c4c4c4;
+    padding-left: 24px;
+    line-height: 1.9;
+    height: 90%;
+    order: 4;
+}
+div.top-phone p{
+    margin: 0;
+}
+a.top-phone-link {
+    color: #fea22e;
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 800;
+}
+a.top-phone-link:hover {
+    color: #d89719;
+}
+
+/* Header for medium and small screen */
+
+@media only screen and (max-width: 1200px){
+    .top-line-container{margin-right: 15px;}
+    .hamburger {display: block;}
+    div.top-phone {order: 2; border: none;}
+    div.top-phone p {display: none;}
+    a.top-phone-link {padding: 25% 0;}
+}
+@media only screen and (max-width: 800px){
+   div.logo {display: none;}
+}

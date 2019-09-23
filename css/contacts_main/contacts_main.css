@@ -1,0 +1,42 @@
+body {
+    padding:0;
+    background: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding-top: 170px;
+}
+
+.contacts-container {
+    max-width: 800px;
+    padding: 40px;
+    width: 100%;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 13px rgba(0,0,0,.034);
+}
+.contacts-row h2 {
+    margin-bottom: 20px;
+}
+
+.contacts-phone {
+    color: #fea22e;
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 800;
+}
+.contacts-phone:hover {
+    color: #d89719;
+}
+
+/* Google map */
+
+.contacts-row iframe {
+    width: 90%;
+    height: 500px;
+    margin: 20px 5%;
+}

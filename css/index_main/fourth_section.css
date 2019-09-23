@@ -1,0 +1,61 @@
+.fourth-section {
+    padding: 30px 0;
+    background: #fafafa;
+}
+
+.fourth-section h2 {
+    margin-top: 50px;
+}
+
+/* Form to callback */
+
+.call-back-form {
+    width: 340px;
+    margin: 50px auto 100px;
+}
+
+.call-back-form .form-group {
+    margin-bottom: 2em;
+}
+
+.call-back-form .form-group label {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0.4em 1.9em;
+}
+
+.call-back-form .form-group input {
+    border: 2px solid #fea22e;
+    border-radius: 30px;
+
+    font-weight: 600;
+    font-size: 16px;
+    padding: 1.5em 1.9em;
+    transition: 0.5s;
+}
+.call-back-form .form-group input::placeholder {
+    font-size: 16px;
+    color: #4f4f4f;
+    opacity: 0.3;
+    font-weight: 600;
+}
+.form-group input:focus {
+    outline: none;
+    background: fff;
+    box-shadow: 0 6px 18px rgba(254,162,46,.52);
+}
+.call-back-form-submit {
+    color: #828282;
+    border: 1px solid #e0e0e0;
+    border-radius: 53px;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0.5em 1.9em;
+    margin: 20px 25%;
+}
+.call-back-form-submit:active, .call-back-form-submit:focus, .call-back-form-submit:hover {
+    background: #fff;
+    border: 1px solid transparent;
+    color: #82;
+    box-shadow: none;
+}

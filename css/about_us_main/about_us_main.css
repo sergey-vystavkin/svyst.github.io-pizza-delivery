@@ -1,0 +1,68 @@
+body {
+    padding:0;
+    background: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding-top: 170px;
+}
+
+p {
+    line-height: 1.7em;
+}
+
+.about-us-container {
+    max-width: 800px;
+    padding: 30px;
+    width: 100%;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 13px rgba(0,0,0,.034);
+}
+
+img.our_kitchen {
+    margin: 20px 10%;
+    width: 80%;
+}
+
+ul.strengths {
+    list-style: none;
+    line-height: 1.7em;
+}
+ul.strengths li:before{
+    content: '\27AB  ';
+    color: #fea22e;
+    font-size: 1.3em;
+    margin-right: 10px;
+}
+ul.strengths li:hover::before{
+    animation: .7s ease-out 1 transition;
+}
+@keyframes transition {
+    30% {
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+}
+
+/* Our results counter */
+
+.our-results-title {
+    margin: 60px 0 30px;
+}
+.our-results-title h2 {
+    color: #2d2e4d;
+     font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+.our-results-statistic span {
+    font-size: 34px;
+    font-weight: 700;
+    color: #fea22e;
+}

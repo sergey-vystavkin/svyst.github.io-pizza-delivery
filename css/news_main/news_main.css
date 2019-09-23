@@ -1,0 +1,26 @@
+body {
+    padding:0;
+    background: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding-top: 170px;
+}
+
+.news-container {
+    max-width: 800px;
+    padding: 40px;
+    width: 100%;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 13px rgba(0,0,0,.034);
+}
+
+.news-row img {
+    width: 80%;
+    margin: 20px 10%;
+}
